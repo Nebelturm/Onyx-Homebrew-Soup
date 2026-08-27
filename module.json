@@ -2,6 +2,9 @@
   "id": "onyxs-homebrew-soup",
   "title": "Onyx's Homebrew Soup",
   "version": "1.0.2",
+  "description": "A module for DND 5e containing personal homebrew content.",
+  "download": "https://github.com/Nebelturm/Onyx-Homebrew-Soup/releases/download/1.0.0/module.zip",
+  "manifest": "https://github.com/Nebelturm/Onyx-Homebrew-Soup/releases/latest/download/module.json",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -77,7 +80,4 @@
       }
     }
   ],
-  "description": "",
-  "download": "https://github.com/",
-  "manifest": "https://github.com/"
 }
