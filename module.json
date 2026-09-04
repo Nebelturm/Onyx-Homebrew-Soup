@@ -1,9 +1,9 @@
 {
   "id": "onyxs-homebrew-soup",
   "title": "Onyx's Homebrew Soup",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "<p>A module for DND 5e containing personal homebrew content.</p>",
-  "download": "https://github.com/Nebelturm/Onyx-Homebrew-Soup/releases/download/1.0.0/module.zip",
+  "download": "https://github.com/Nebelturm/Onyx-Homebrew-Soup/releases/download/1.1.0/module.zip",
   "manifest": "https://github.com/Nebelturm/Onyx-Homebrew-Soup/releases/latest/download/module.json",
   "compatibility": {
     "minimum": "13",
@@ -84,11 +84,55 @@
       "label": "Items",
       "path": "packs/Items",
       "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "Scenes",
+      "label": "Scenes",
+      "path": "packs/Scenes",
+      "type": "Scene",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
       "system": "dnd5e"
     }
-  ]
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "betterroofs",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "betterroofs",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "levels",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "wall-height",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
 }
